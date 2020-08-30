@@ -1,0 +1,116 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1a0952;
+}
+
+h1 {
+    color: #fff;
+}
+
+h3,
+span {
+    color: #ffffff;
+}
+
+/* .wrapper {
+    /* display: flex;
+    justify-content: center; */
+/* align-items: center; */
+/* }  */
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center;
+    justify-content: center; */
+    height: 560px;
+    width: 560px;
+    border: solid #7102bd;
+    background: #FFFFFF;
+    box-shadow: 0 0 5px #7102bd,
+        0 0 10px #7102bd,
+        0 0 15px #7102bd,
+        0 0 20px #7102bd,
+        0 0 30px #7102bd,
+        0 0 40px #7102bd,
+        0 0 55px #7102bd,
+        0 0 75px #7102bd;
+    color: #FFFFFF;
+    ;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+
+.pac-dot {
+    background-color: #048504;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: #001d57
+}
+
+.power-pellet {
+    background-color: #e41a82;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: red;
+    border: 0px;
+}
+
+.pinky {
+    background-color: pink;
+    border: 0px;
+}
+
+.inky {
+    background-color: cyan;
+    border: 0px;
+}
+
+.clyde {
+    background-color: orange;
+    border: 0px;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+    border: 0px;
+}
+
+
+
+
+
+
+
+
+
+.pac-man {
+    background-color: #ffc600;
+    border-radius: 10px;
+}
