@@ -1,15 +1,7 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face {
+    src: url(font/game_over.ttf);
+    font-family: 'game_over';
 }
-
-body {
-    max-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 body {
     height: 100vh;
@@ -22,11 +14,13 @@ body {
 
 h1 {
     color: #fff;
+    font-family: game_over;
 }
 
 h3,
 span {
     color: #ffffff;
+    font-family: game_over;
 }
 
 /* .wrapper {
