@@ -1,8 +1,3 @@
-@font-face {
-    src: url(font/game_over.ttf);
-    font-family: 'game_over';
-}
-
 body {
     height: 100vh;
     display: flex;
@@ -14,20 +9,16 @@ body {
 
 h1 {
     color: #fff;
-    font-family: game_over;
+    font-family: 'Russo One',
+        sans-serif;
 }
 
 h3,
 span {
     color: #ffffff;
-    font-family: game_over;
+    font-family: 'Russo One',
+        sans-serif;
 }
-
-/* .wrapper {
-    /* display: flex;
-    justify-content: center; */
-/* align-items: center; */
-/* }  */
 
 .grid {
     display: flex;
